@@ -64,7 +64,7 @@ class BlogController extends BaseController {
 		}
 
 		// Get this post comments
-		$comments = $post->comments()->orderBy('created_at', 'ASC')->get();
+		//$comments = $post->comments()->orderBy('created_at', 'ASC')->get();
 
         // Get current user and check permission
         $user = $this->user->currentUser();
