@@ -54,10 +54,10 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      => 'localhost',
-			'database'  => 'learn_l4bootstrap',
-			'username'  => 'root',
-			'password'  => 'root',
+			'host'      => 'tunnel.pagodabox.com:3306',
+			'database'  => 'livefyre-laravel',
+			'username'  => 'sandee',
+			'password'  => 'slgNG4rU',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
